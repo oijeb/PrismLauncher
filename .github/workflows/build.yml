@@ -58,7 +58,7 @@ jobs:
             qt_arch: 'win32_msvc2019'
             qt_version: '5.15.2'
             qt_modules: ''
-            qt_tools: 'tools_openssl_x86'
+            qt_tools: 'tools_opensslv3_x64'
 
           - os: windows-2022
             name: "Windows-MSVC"
