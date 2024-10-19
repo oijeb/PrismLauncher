@@ -208,7 +208,7 @@ jobs:
         if: runner.os == 'Windows' && matrix.architecture == 'arm64'
         uses: jurplel/install-qt-action@v3
         with:
-           aqtversion: '==3.1.*'
+           aqtversion: '==3.1.11'
            py7zrversion: '>=0.20.2'
            version: ${{ matrix.qt_version }}
            host: 'windows'
